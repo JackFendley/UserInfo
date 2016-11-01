@@ -36,8 +36,8 @@ public class UserInfo {
 		Scanner userInput = new Scanner(System.in);
 		String userName;
 		String userLastName;
-		double userGrade;
-		double studentID;
+		int userGrade;
+		int studentID;
 		String userLogin;
 		double Average;
 		
@@ -49,10 +49,10 @@ public class UserInfo {
 		userLastName = userInput.nextLine();
 		
 		System.out.print("Grade: ");
-		userGrade = userInput.nextDouble();
+		userGrade = userInput.nextInt();
 		
 		System.out.print("Student ID: ");
-		studentID = userInput.nextDouble();
+		studentID = userInput.nextInt();
 		
 		System.out.print("Login: ");
 		userLogin = userInput.next();
